@@ -50,7 +50,7 @@ public class ElasticConfig extends AbstractElasticsearchConfiguration {
 //                    .build();
 
             final CredentialsProvider cprov = new BasicCredentialsProvider();
-            cprov.setCredentials(AuthScope.ANY,new UsernamePasswordCredentials("elastic","AavHx0Hr0uew1ENtRb4QXsQd"));
+            cprov.setCredentials(AuthScope.ANY,new UsernamePasswordCredentials("elastic","cBvd4z7y7kbiyjGna7sf3Xi8"));
             RestClientBuilder.HttpClientConfigCallback callback = httpAsyncClientBuilder -> {
                 httpAsyncClientBuilder.disableAuthCaching();
                 return httpAsyncClientBuilder.setDefaultCredentialsProvider(cprov);
